@@ -1,0 +1,25 @@
+#AnchorPane{
+    -fx-background-color: #e9e9e9;
+    -fx-padding: 5 5 5 5;
+    -fx-font-weight: bold;
+}
+#closeButton:hover{
+    -fx-background-color: #e3e3e3;
+}
+#searchButton:hover{
+    -fx-background-color: #e3e3e3;
+}
+#ListView{
+    -fx-background-color: #f1f1f1;
+}
+#Text{
+    -fx-padding: 2 205 2 250;
+    -fx-background-color: #4d90fe;
+    -fx-text-color: #fffbfb;
+
+}
+#Text1{
+    -fx-background-color: #4d90fe;
+    -fx-padding: 2 60 2 60;
+    -fx-label-color: #fffbfb;
+}

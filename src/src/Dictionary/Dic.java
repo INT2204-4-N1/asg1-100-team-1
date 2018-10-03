@@ -7,7 +7,7 @@ import java.util.Map;
 
 
 public class Dic {
-    public Map<String,String> Data=new HashMap<>();
+    public Map<String,String> Data = new HashMap<>();
     public ArrayList<String> Word = new ArrayList();
     public void readData() {
         try {
