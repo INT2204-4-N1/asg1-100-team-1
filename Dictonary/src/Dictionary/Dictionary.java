@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class Dic {
+public class Dictionary {
     public Map<String,String> Data = new HashMap<>();
     public ArrayList<String> Word = new ArrayList();
     public void readData() {

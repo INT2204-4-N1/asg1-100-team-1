@@ -1,6 +1,6 @@
 package sample;
 
-import Dictionary.Dic;
+import Dictionary.Dictionary;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -43,7 +43,7 @@ public class Controller implements Initializable {
     @FXML
     ListView listView;
 
-    Dic dic = new Dic();
+    Dictionary dictionary = new Dictionary();
     @FXML
     WebView webView;
     @FXML
@@ -53,12 +53,12 @@ public class Controller implements Initializable {
     public void Submit (ActionEvent e){
         String text = search.getText();
         //text = text.toLowerCase();
-        webView.getEngine().loadContent(dic.Data.get(text));
+        webView.getEngine().loadContent(dictionary.Data.get(text));
     }
 
     //hàm hiện từ lên listview và gợi ý từ tìm kiếm
     @FXML public void searchWord(){
-        ObservableList<String> listWord = FXCollections.observableArrayList(dic.Word);
+        ObservableList<String> listWord = FXCollections.observableArrayList(dictionary.Word);
         FilteredList<String> filteredData = new FilteredList<>(listWord, s -> true);
         listView.setItems(filteredData);
         search.textProperty().addListener((observable, oldValue, newValue) -> {
@@ -80,7 +80,7 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         //đọc dữ liệu
-        dic.readData();
+        dictionary.readData();
 
         //hiện data word lên listview
         searchWord();
@@ -92,7 +92,7 @@ public class Controller implements Initializable {
                 if(event.getButton() == MouseButton.PRIMARY){
 
                     String text = (String) listView.getSelectionModel().getSelectedItem();
-                    webView.getEngine().loadContent(dic.Data.get(text));
+                    webView.getEngine().loadContent(dictionary.Data.get(text));
                 }
             }
         });
@@ -104,7 +104,7 @@ public class Controller implements Initializable {
                 if(e.getCode()== KeyCode.ENTER){
                     String text = search.getText();
                     //text = text.toLowerCase();
-                    webView.getEngine().loadContent(dic.Data.get(text));
+                    webView.getEngine().loadContent(dictionary.Data.get(text));
                 }
             }
         });
