@@ -11,8 +11,9 @@ public class Dic {
     public ArrayList<String> Word = new ArrayList();
     public void readData() {
         try {
-
-            BufferedReader reader = new BufferedReader(new FileReader("C:\\Github\\Dictonarydemo\\DictonaryDemo\\src\\Data\\E_V.txt"));
+            String path = new File("").getAbsolutePath();
+            path =  path.concat("/Dictonary/src/Data/E_V.txt");
+            BufferedReader reader = new BufferedReader(new FileReader(path));
 
             String line, word, def;
             int wordsNum = 0;
