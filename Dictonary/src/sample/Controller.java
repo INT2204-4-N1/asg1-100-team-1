@@ -21,6 +21,7 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.web.WebView;
 import javafx.util.Duration;
+
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.util.Calendar;
@@ -50,24 +51,25 @@ public class Controller implements Initializable {
     TextField search;
 
     //Bắt sự kiện cho nút search
-    public void Submit (ActionEvent e){
+    public void Submit(ActionEvent e) {
         String text = search.getText();
         //text = text.toLowerCase();
         webView.getEngine().loadContent(dictionary.Data.get(text));
     }
 
     //hàm hiện từ lên listview và gợi ý từ tìm kiếm
-    @FXML public void searchWord(){
+    @FXML
+    public void searchWord() {
         ObservableList<String> listWord = FXCollections.observableArrayList(dictionary.Word);
         FilteredList<String> filteredData = new FilteredList<>(listWord, s -> true);
         listView.setItems(filteredData);
         search.textProperty().addListener((observable, oldValue, newValue) -> {
-            filteredData.setPredicate(s ->{
-                if(newValue ==null|| newValue.isEmpty()){
+            filteredData.setPredicate(s -> {
+                if (newValue == null || newValue.isEmpty()) {
                     return true;
                 }
-                String tolower= newValue.toLowerCase();
-                if(s.toLowerCase().startsWith(tolower)){
+                String tolower = newValue.toLowerCase();
+                if (s.toLowerCase().startsWith(tolower)) {
                     return true;
                 }
                 return false;
@@ -89,7 +91,7 @@ public class Controller implements Initializable {
         listView.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                if(event.getButton() == MouseButton.PRIMARY){
+                if (event.getButton() == MouseButton.PRIMARY) {
 
                     String text = (String) listView.getSelectionModel().getSelectedItem();
                     webView.getEngine().loadContent(dictionary.Data.get(text));
@@ -101,7 +103,7 @@ public class Controller implements Initializable {
         search.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent e) {
-                if(e.getCode()== KeyCode.ENTER){
+                if (e.getCode() == KeyCode.ENTER) {
                     String text = search.getText();
                     //text = text.toLowerCase();
                     webView.getEngine().loadContent(dictionary.Data.get(text));
@@ -130,7 +132,7 @@ public class Controller implements Initializable {
         year = calendar.get(Calendar.YEAR);
         month = calendar.get(Calendar.MONTH);
         day = calendar.get(Calendar.DATE);
-        CalendarDisplay.setText(String.valueOf(day) + "/" + String.valueOf(month+1) + "/" + String.valueOf(year)+" ICT");
+        CalendarDisplay.setText(String.valueOf(day) + "/" + String.valueOf(month + 1) + "/" + String.valueOf(year) + " ICT");
         //Kết thúc Set Calendar
     }
 }

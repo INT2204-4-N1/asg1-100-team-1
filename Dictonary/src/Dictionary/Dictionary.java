@@ -7,12 +7,13 @@ import java.util.Map;
 
 
 public class Dictionary {
-    public Map<String,String> Data = new HashMap<>();
+    public Map<String, String> Data = new HashMap<>();
     public ArrayList<String> Word = new ArrayList();
+
     public void readData() {
         try {
             String path = new File("").getAbsolutePath();
-            path =  path.concat("/Dictonary/src/Data/E_V.txt");
+            path = path.concat("/Dictonary/src/Data/E_V.txt");
             BufferedReader reader = new BufferedReader(new FileReader(path));
 
             String line, word, def;

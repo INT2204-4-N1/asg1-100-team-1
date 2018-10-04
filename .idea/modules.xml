@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dictonary/Dictonary.iml" filepath="$PROJECT_DIR$/Dictonary/Dictonary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/asg1-100-team-1.iml" filepath="$PROJECT_DIR$/.idea/asg1-100-team-1.iml" />
     </modules>
   </component>
 </project>

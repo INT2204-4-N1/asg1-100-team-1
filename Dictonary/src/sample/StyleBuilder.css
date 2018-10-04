@@ -1,23 +1,28 @@
-#AnchorPane{
+#AnchorPane {
     -fx-background-color: #e9e9e9;
     -fx-padding: 5 5 5 5;
     -fx-font-weight: bold;
 }
-#closeButton:hover{
+
+#closeButton:hover {
     -fx-background-color: #e3e3e3;
 }
-#searchButton:hover{
+
+#searchButton:hover {
     -fx-background-color: #e3e3e3;
 }
-#ListView{
+
+#ListView {
     -fx-background-color: #f1f1f1;
 }
-#Text{
+
+#Text {
     -fx-background-color: #4d90fe;
     -fx-text-color: #fffbfb;
 
 }
-#Text1{
+
+#Text1 {
     -fx-background-color: #4d90fe;
     -fx-label-color: #fffbfb;
 }
