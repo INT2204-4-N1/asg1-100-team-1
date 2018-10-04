@@ -10,14 +10,13 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Text?>
 <?import javafx.scene.web.WebView?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Label fx:id="ClockDisplay" layoutX="719.0" layoutY="565.0" prefHeight="21.0" prefWidth="167.0" text="label1" />
-      <Label fx:id="CalendarDisplay" layoutX="719.0" layoutY="545.0" prefHeight="21.0" prefWidth="159.0" text="label2" />
-      <Button id="closeButton" fx:id="closeButton" layoutX="28.0" layoutY="496.0" mnemonicParsing="false" onAction="#Submit" prefHeight="41.0" prefWidth="53.0">
+      <Label fx:id="ClockDisplay" alignment="CENTER_RIGHT" layoutX="734.0" layoutY="48.0" prefHeight="21.0" prefWidth="149.0" text="label1" />
+      <Label fx:id="CalendarDisplay" alignment="CENTER_RIGHT" layoutX="734.0" layoutY="27.0" prefHeight="21.0" prefWidth="149.0" text="label2" />
+      <Button id="closeButton" fx:id="closeButton" layoutX="16.0" layoutY="28.0" mnemonicParsing="false" onAction="#Submit" prefHeight="41.0" prefWidth="53.0">
          <graphic>
             <ImageView fitHeight="36.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -26,7 +25,6 @@
             </ImageView>
          </graphic>
       </Button>
-      <Text layoutX="28.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trạng Thái: Sẵn Sàng" wrappingWidth="150.99999904632568" />
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="900.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
@@ -46,11 +44,10 @@
           </Menu>
         </menus>
       </MenuBar>
-      <WebView fx:id="webView" layoutX="304.0" layoutY="151.0" prefHeight="394.0" prefWidth="558.0" />
-      <Label id="Text" layoutX="304.0" layoutY="130.0" prefHeight="21.0" prefWidth="558.0" text="TRANSLATE" textFill="#fffbfb" />
-      <ListView id="ListView" layoutX="96.0" layoutY="151.0" prefHeight="394.0" prefWidth="179.0" styleClass="ViewBase" />
-      <TextField fx:id="getText" layoutX="96.0" layoutY="80.0" prefHeight="31.0" prefWidth="766.0" />
-      <Button id="searchButton" layoutX="802.0" layoutY="80.0" mnemonicParsing="false" onAction="#Submit" prefHeight="31.0" prefWidth="60.0">
+      <WebView fx:id="webView" layoutX="304.0" layoutY="151.0" prefHeight="433.0" prefWidth="580.0" />
+      <Label id="Text" alignment="CENTER" layoutX="304.0" layoutY="130.0" prefHeight="21.0" prefWidth="580.0" text="TRANSLATE" textFill="#fffbfb" />
+      <ListView id="ListView" fx:id="listView" layoutX="16.0" layoutY="151.0" prefHeight="433.0" prefWidth="271.0" styleClass="ViewBase" />
+      <Button id="searchButton" layoutX="824.0" layoutY="80.0" mnemonicParsing="false" onAction="#Submit" prefHeight="31.0" prefWidth="60.0">
          <graphic>
             <ImageView fx:id="searchButton" fitHeight="21.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -59,6 +56,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Label id="Text1" layoutX="96.0" layoutY="130.0" prefHeight="21.0" prefWidth="179.0" text="WORDS" textFill="#fffbfb" />
+      <Label id="Text1" alignment="CENTER" layoutX="16.0" layoutY="130.0" prefHeight="21.0" prefWidth="271.0" text="WORDS" textFill="#fffbfb" />
+      <TextField fx:id="search" layoutX="16.0" layoutY="80.0" prefHeight="31.0" prefWidth="808.0" />
    </children>
 </AnchorPane>

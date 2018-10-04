@@ -4,18 +4,23 @@ import Dictionary.Dic;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseButton;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.web.WebView;
 import javafx.util.Duration;
-
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.util.Calendar;
@@ -35,27 +40,69 @@ public class Controller implements Initializable {
     private Label CalendarDisplay;
     @FXML
     private Button closeButton;
+    @FXML
+    ListView listView;
 
     Dic dic = new Dic();
     @FXML
     WebView webView;
     @FXML
-    TextField getText;
+    TextField search;
+
+    //Bắt sự kiện cho nút search
     public void Submit (ActionEvent e){
-        String text = getText.getText();
+        String text = search.getText();
         //text = text.toLowerCase();
         webView.getEngine().loadContent(dic.Data.get(text));
+    }
+
+    //hàm hiện từ lên listview và gợi ý từ tìm kiếm
+    @FXML public void searchWord(){
+        ObservableList<String> listWord = FXCollections.observableArrayList(dic.Word);
+        FilteredList<String> filteredData = new FilteredList<>(listWord, s -> true);
+        listView.setItems(filteredData);
+        search.textProperty().addListener((observable, oldValue, newValue) -> {
+            filteredData.setPredicate(s ->{
+                if(newValue ==null|| newValue.isEmpty()){
+                    return true;
+                }
+                String tolower= newValue.toLowerCase();
+                if(s.toLowerCase().startsWith(tolower)){
+                    return true;
+                }
+                return false;
+            });
+            listView.setItems(filteredData);
+        });
     }
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        //đọc dữ liệu
         dic.readData();
-        getText.setOnKeyPressed(new EventHandler<KeyEvent>() {
+
+        //hiện data word lên listview
+        searchWord();
+
+        //bắt sự kiện cho chuột khi nhấn vào từ trong listword
+        listView.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if(event.getButton() == MouseButton.PRIMARY){
+
+                    String text = (String) listView.getSelectionModel().getSelectedItem();
+                    webView.getEngine().loadContent(dic.Data.get(text));
+                }
+            }
+        });
+
+        // bắt sự kiện tìm kiếm nhấn Enter cho textfield
+        search.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent e) {
                 if(e.getCode()== KeyCode.ENTER){
-                    String text = getText.getText();
+                    String text = search.getText();
                     //text = text.toLowerCase();
                     webView.getEngine().loadContent(dic.Data.get(text));
                 }

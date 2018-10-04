@@ -12,7 +12,7 @@ public class Dic {
     public void readData() {
         try {
 
-            BufferedReader reader = new BufferedReader(new FileReader("C:/Github/asg1-100-team-1/src/src/Data/E_V.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("C:\\Github\\Dictonarydemo\\DictonaryDemo\\src\\Data\\E_V.txt"));
 
             String line, word, def;
             int wordsNum = 0;

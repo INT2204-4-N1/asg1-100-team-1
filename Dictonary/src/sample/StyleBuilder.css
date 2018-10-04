@@ -13,13 +13,11 @@
     -fx-background-color: #f1f1f1;
 }
 #Text{
-    -fx-padding: 2 205 2 250;
     -fx-background-color: #4d90fe;
     -fx-text-color: #fffbfb;
 
 }
 #Text1{
     -fx-background-color: #4d90fe;
-    -fx-padding: 2 60 2 60;
     -fx-label-color: #fffbfb;
 }
