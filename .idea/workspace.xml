@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/GoogleLoader.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/GoogleLoader.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/MainSceneBuilder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/MainSceneBuilder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/addword.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/addword.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/editword.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/editword.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/StyleBuilder.css" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -230,8 +223,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/DatabaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+            <state relative-caret-position="289">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -432,11 +425,7 @@
               <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="asg1-100-team-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -456,10 +445,10 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540047275032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540047807731" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/jfoenix-9.0.6.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -646,7 +635,7 @@
       <workItem from="1540010272990" duration="1455000" />
       <workItem from="1540021077633" duration="1031000" />
       <workItem from="1540023264868" duration="1837000" />
-      <workItem from="1540032248442" duration="7929000" />
+      <workItem from="1540032248442" duration="8508000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1540033033067</created>
@@ -697,17 +686,37 @@
       <option name="project" value="LOCAL" />
       <updated>1540033939046</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1540047261817</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540047261817</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1540047309393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540047309393</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1540047329351</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540047329351</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86359000" />
+    <option name="totallyTimeSpent" value="86938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2806354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="1" weight="0.2785235" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -716,7 +725,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35973597" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35973597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -957,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        <state relative-caret-position="289">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -971,10 +980,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>JavaDictionary:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
