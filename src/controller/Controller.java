@@ -544,6 +544,10 @@ public class Controller implements Initializable {
         }
     }
 
+    public void loadVerbs(){
+
+    }
+
     /**
      * chuyển từ điển anh việt
      */
