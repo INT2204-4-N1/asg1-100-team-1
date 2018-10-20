@@ -218,11 +218,11 @@ public class Language {
     }
 
     public String getNameLanguage(String prefixLanguage) {
-        return (String)this.hashLanguage.get(prefixLanguage);
+        return (String) this.hashLanguage.get(prefixLanguage);
     }
 
     public String getNameLanguage(String prefixLanguage, String outputLanguage) {
         Translator translate = Translator.getInstance();
-        return translate.translate((String)this.hashLanguage.get(prefixLanguage), prefixLanguage, outputLanguage);
+        return translate.translate((String) this.hashLanguage.get(prefixLanguage), prefixLanguage, outputLanguage);
     }
 }

@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package gtranslate.text;
+package GoogleAPI.text;
 
 public class TextTranslate {
     private Text input;

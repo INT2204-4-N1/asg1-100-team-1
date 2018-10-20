@@ -26,5 +26,9 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="sqlite-jdbc-3.23.1" level="project" />
+    <orderEntry type="library" name="fontawesomefx-commons-9.1.2" level="project" />
+    <orderEntry type="library" name="fontawesomefx-fontawesome-4.7.0-9.1.2" level="project" />
+    <orderEntry type="library" name="jlayer-1.0.1" level="project" />
+    <orderEntry type="library" name="jfoenix-9.0.6" level="project" />
   </component>
 </module>

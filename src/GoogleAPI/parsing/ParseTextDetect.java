@@ -3,10 +3,10 @@
 // (powered by Fernflower decompiler)
 //
 
-package gtranslate.parsing;
+package GoogleAPI.parsing;
 
-import gtranslate.text.Text;
-import gtranslate.utils.WebUtils;
+import GoogleAPI.text.Text;
+import GoogleAPI.utils.WebUtils;
 
 public class ParseTextDetect implements Parse {
     private StringBuilder url;

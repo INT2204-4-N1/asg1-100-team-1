@@ -2,13 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_23_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_23_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/GoogleLoader.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/GoogleLoader.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/MainSceneBuilder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/MainSceneBuilder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Main/Style/GoogleLoader.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Main/Style/GoogleLoader.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Main/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Main/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDictionary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDictionary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/Data/E_V.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/Data/V_E.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/Data/dict_hh.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/Data/dict_hh.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/Dictionary/Dic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/GoogleAPI/Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/GoogleAPI/Audio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/GoogleAPI/GoogleTranslate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/GoogleAPI/GoogleTranslate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/GoogleAPI/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/GoogleAPI/Translator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/GoogleAPI/Translator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Dictionary/DatabaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Internet/InternetConnected.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/GoogleLoader.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/MainSceneBuilder.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/StyleBuilder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/addword.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/Style/editword.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/GoogleController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/GoogleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/addController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/editController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/gtranslate/parsing/Parse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/gtranslate/parsing/ParseTextDetect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/gtranslate/parsing/ParseTextTranslate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/gtranslate/text/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/gtranslate/text/TextTranslate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/gtranslate/utils/WebUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/104px-Wikipedia-logo-v2-it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/428202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/43131414_343624512849964_8652672484962729984_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/512x512bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/58872068-white-exit-icon-on-blue-button-isolated-on-white.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/5vfpUaw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/61HQBZFBSvL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/701492.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/Dictionary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/TFLAT-English-Vietnamese-Dictionary-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/delete.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/exit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/file.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/find.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/girl_hat_femininity_120738_3840x2400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icon-1968243_960_720.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-book-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-books-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-chevron-right-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-edit-property-52.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-edit-property-52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-google-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-google-translate-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-home-filled-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-idea-sharing-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-plus-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-read-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-search-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-search-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-search-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-speaker-52.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-speaker-52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-trash-52.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-trash-52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-voice-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-voice-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/icons8-voice-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/laban.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDictionary/icon/laban.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/left-right-double-arrow-icon-68673.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/medium-volume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/photo_40290_20150822.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/quit_exit-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/refrest.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/search-circle-blue-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/search_33363.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/switch-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/icon/write.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDictionary/lib/jl1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/E_V.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/V_E.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/dict_hh.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/GoogleTranslate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/Translator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/parsing/Parse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/parsing/ParseTextDetect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/parsing/ParseTextTranslate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/text/Text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/text/TextTranslate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleAPI/utils/WebUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Dictionary/DatabaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Dictionary/Dic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Internet/InternetConnected.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/Style/GoogleLoader.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/Style/StyleBuilder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/Style/addword.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/Style/editword.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/controller/GoogleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/controller/addController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/controller/editController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/104px-Wikipedia-logo-v2-it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/428202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/43131414_343624512849964_8652672484962729984_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/512x512bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/58872068-white-exit-icon-on-blue-button-isolated-on-white.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/5vfpUaw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/61HQBZFBSvL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/701492.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/Dictionary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/Google-Translate-apk-free-download-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/TFLAT-English-Vietnamese-Dictionary-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/delete.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/exit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/file.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/find.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/girl_hat_femininity_120738_3840x2400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icon-1968243_960_720.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-book-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-books-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-chevron-right-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-edit-property-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-google-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-google-translate-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-home-filled-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-idea-sharing-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-microphone-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-plus-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-read-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-search-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-search-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-speaker-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-trash-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-voice-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-voice-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/icons8-voice-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/laban.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/left-right-double-arrow-icon-68673.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/medium-volume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/photo_40290_20150822.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/quit_exit-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/refrest.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/search-circle-blue-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/search_33363.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/switch-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon/write.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jl1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +175,11 @@
     <SUITE FILE_PATH="coverage/JavaDictionary$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1539356607635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>GoogleAPI.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaDictionary$Main__1_.ic" NAME="MainTest Coverage Results" MODIFIED="1539280797386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>GoogleAPI.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/JavaDictionary$Main.ic" NAME="Main Coverage Results" MODIFIED="1540010553561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>bin.Main.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaDictionary$Main__1_.ic" NAME="MainTest Coverage Results" MODIFIED="1539280797386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>GoogleAPI.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageOptionsProvider">
@@ -176,26 +328,58 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="247538746">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bin/Main/main/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/DatabaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/Controller.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="520" column="118" lean-forward="true" selection-start-line="519" selection-start-column="8" selection-end-line="520" selection-end-column="118" />
+            <state relative-caret-position="238">
+              <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -244,6 +428,7 @@
         <option value="$PROJECT_DIR$/src/bin/Main/controller/GoogleController.java" />
         <option value="$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml" />
         <option value="$PROJECT_DIR$/src/bin/Main/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/data/DatabaseConnection.java" />
       </list>
     </option>
   </component>
@@ -260,11 +445,11 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="180" />
-    <option name="y" value="5" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -283,42 +468,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="JavaDictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asg1-100-team-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaDictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Style" type="462c0819:PsiDirectoryNode" />
+              <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -337,16 +492,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540011548473" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540032974882" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/jfoenix-9.0.6.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\asg1-100-team-1\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\Desktop\JavaDictionary\src\bin\Main\controller" />
       <recent name="C:\Users\Asus\Desktop\JavaDictionary\src\bin\Main\Style" />
@@ -367,7 +525,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -382,6 +540,20 @@
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="JavaDictionary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -454,9 +626,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
@@ -501,17 +675,19 @@
       <workItem from="1539835787899" duration="87000" />
       <workItem from="1540008882497" duration="17000" />
       <workItem from="1540010272990" duration="1455000" />
+      <workItem from="1540021077633" duration="1031000" />
+      <workItem from="1540023264868" duration="1837000" />
+      <workItem from="1540032248442" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75562000" />
+    <option name="totallyTimeSpent" value="79041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21073826" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="1" weight="0.2785235" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -520,7 +696,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36034733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35973597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,6 +770,9 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Dictionary" />
+    </ignored-roots>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -602,139 +781,67 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/bin/Main/main/Style/MainSceneBuilder.fxml" />
     <entry file="file://$PROJECT_DIR$/src/bin/Main/main/Style/StyleBuilder.css" />
-    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/Translator.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/Translator.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/Audio.java" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Internet/InternetConnected.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/GoogleTranslate.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/Language.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/MainTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Dictionary/DatabaseConnection.java" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Dictionary/Dic.java" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/StyleBuilder.css" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/GoogleLoader.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/GoogleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/addController.java" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/editController.java" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/addword.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/editword.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/Audio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Internet/InternetConnected.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/GoogleTranslate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4458">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Dictionary/DatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Dictionary/Dic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/StyleBuilder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3335">
-          <caret line="145" column="45" selection-start-line="145" selection-start-column="45" selection-end-line="145" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/GoogleLoader.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/GoogleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/addController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/editController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/addword.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/editword.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
+        <state relative-caret-position="-4355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="520" column="118" lean-forward="true" selection-start-line="519" selection-start-column="8" selection-end-line="520" selection-end-column="118" />
+        <state relative-caret-position="356">
+          <caret line="605" column="74" selection-start-line="605" selection-start-column="32" selection-end-line="605" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/parsing/Parse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/parsing/ParseTextDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleAPI/parsing/ParseTextTranslate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -796,6 +903,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -803,7 +911,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>sqlite-jdbc-3.23.1</last-edited>
+          <last-edited>jfoenix-9.0.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

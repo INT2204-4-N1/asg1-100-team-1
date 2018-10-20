@@ -3,11 +3,11 @@
 // (powered by Fernflower decompiler)
 //
 
-package gtranslate.parsing;
+package GoogleAPI.parsing;
 
-import gtranslate.text.Text;
-import gtranslate.text.TextTranslate;
-import gtranslate.utils.WebUtils;
+import GoogleAPI.text.Text;
+import GoogleAPI.text.TextTranslate;
+import GoogleAPI.utils.WebUtils;
 
 public class ParseTextTranslate implements Parse {
     private TextTranslate textTranslate;

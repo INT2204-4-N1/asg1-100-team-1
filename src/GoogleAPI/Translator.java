@@ -5,11 +5,11 @@
 
 package GoogleAPI;
 
-import gtranslate.parsing.Parse;
-import gtranslate.parsing.ParseTextDetect;
-import gtranslate.parsing.ParseTextTranslate;
-import gtranslate.text.Text;
-import gtranslate.text.TextTranslate;
+import GoogleAPI.parsing.Parse;
+import GoogleAPI.parsing.ParseTextDetect;
+import GoogleAPI.parsing.ParseTextTranslate;
+import GoogleAPI.text.Text;
+import GoogleAPI.text.TextTranslate;
 
 public class Translator {
     private static Translator translator;

@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package gtranslate.utils;
+package GoogleAPI.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,8 +28,8 @@ public class WebUtils {
             BufferedReader br = new BufferedReader(reader);
 
             int byteRead;
-            while((byteRead = br.read()) != -1) {
-                result.append((char)byteRead);
+            while ((byteRead = br.read()) != -1) {
+                result.append((char) byteRead);
             }
         } catch (MalformedURLException var7) {
             var7.printStackTrace();
