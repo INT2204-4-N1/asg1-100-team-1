@@ -544,7 +544,7 @@ public class Controller implements Initializable {
         }
     }
 
-    public void loadVerbs(){
+    public void loadVerbs() {
 
     }
 
