@@ -135,7 +135,87 @@
                                 <Image url="@../icon/icons8-speaker-52.png" />
                             </image>
                         </ImageView>
-                    </graphic>
+                    </graphic>                     prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
+        <JFXTextArea fx:id="GoogleTranslateTextArea" focusColor="#00ffaa" layoutX="346.0" layoutY="84.0"
+                     prefHeight="287.0" prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
+        <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../icon/Google-Translate-apk-free-download-1.png"/>
+            </image>
+        </ImageView>
+        <JFXButton fx:id="GooglesearchButton" contentDisplay="GRAPHIC_ONLY" layoutX="287.0" layoutY="319.0"
+                   onAction="#setGooglesearchButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-search-26.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="GooglespeakButton" contentDisplay="GRAPHIC_ONLY" layoutX="90.0" layoutY="319.0"
+                   onAction="#setGooglespeakButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-speaker-52.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="GooglespeakButton2" contentDisplay="GRAPHIC_ONLY" layoutX="352.0" layoutY="319.0"
+                   onAction="#setGooglespeakButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css" text="Button">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-speaker-52.png"/>
+                    </image>
+                </ImageView>
+            </graphic>                     prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
+        <JFXTextArea fx:id="GoogleTranslateTextArea" focusColor="#00ffaa" layoutX="346.0" layoutY="84.0"
+                     prefHeight="287.0" prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
+        <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../icon/Google-Translate-apk-free-download-1.png"/>
+            </image>
+        </ImageView>
+        <JFXButton fx:id="GooglesearchButton" contentDisplay="GRAPHIC_ONLY" layoutX="287.0" layoutY="319.0"
+                   onAction="#setGooglesearchButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-search-26.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="GooglespeakButton" contentDisplay="GRAPHIC_ONLY" layoutX="90.0" layoutY="319.0"
+                   onAction="#setGooglespeakButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-speaker-52.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="GooglespeakButton2" contentDisplay="GRAPHIC_ONLY" layoutX="352.0" layoutY="319.0"
+                   onAction="#setGooglespeakButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css" text="Button">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-speaker-52.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
                     <HBox.margin>
                         <Insets right="10.0" />
                     </HBox.margin>
