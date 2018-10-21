@@ -11,7 +11,7 @@
 }
 
 .tab {
-    -fx-background-color: #00FFAA;
+    -fx-background-color: #0f9;
 }
 
 .buttonTab {
@@ -32,7 +32,7 @@
 }
 
 .searchButton {
-    -fx-fill: #00FFAA;
+    -fx-fill: #0f9;
 }
 
 .searchButton:hover {
@@ -40,7 +40,7 @@
 }
 
 .cancelButton {
-    -fx-background-color: #00FFAA;
+    -fx-background-color: #0f9;
     -fx-background-radius: 100;
 
 }
@@ -63,7 +63,7 @@
 }
 
 .list-cell:filled:hover {
-    -fx-background-color: #0fa;
+    -fx-background-color: #0f8;
     -fx-text-fill: white;
 }
 
@@ -73,11 +73,39 @@
 
 .scroll-bar:horizontal, .scroll-bar:vertical {
     -fx-background-color: #eee;
-    -fx-background-radius: 10em;
+    -fx-background-radius: 100;
 }
 
 .scroll-bar:horizontal .thumb,
 .scroll-bar:vertical .thumb {
     -fx-background-color: #bbb;
-    -fx-background-radius: 10em;
+    -fx-background-radius: 100;
+}
+
+
+
+
+.tree-table-view{
+    -fx-tree-table-color: #0f9
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected {
+    -fx-background-color: #0f9;
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected .tree-table-cell{
+    -fx-text-fill: white;
+}
+
+
+.tree-table-view:focused .tree-table-row-cell:hover {
+    -fx-background-color: #0ea
+}
+.tree-table-view:focused .tree-table-row-cell:hover .tree-table-cell{
+    -fx-text-fill: white;
+}
+
+
+.tree-table-view .tree-table-cell{
+    -fx-alignment: center;
 }

@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaDictionary:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaDictionary_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/MainSceneBuilder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/MainSceneBuilder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/StyleBuilder.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/StyleBuilder.css" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -173,44 +183,46 @@
     <session id="247538746">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="css" value="2" />
-          <entry key="fxml" value="1" />
+          <entry key="css" value="3" />
+          <entry key="fxml" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="11" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="17" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="95" />
-          <entry key="fxml" value="12" />
-          <entry key="java" value="95" />
+          <entry key="css" value="203" />
+          <entry key="fxml" value="17" />
+          <entry key="java" value="1029" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="95" />
-          <entry key="JAVA" value="95" />
+          <entry key="CSS" value="203" />
+          <entry key="JAVA" value="1029" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -220,75 +232,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/DatabaseConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/StyleBuilder.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="547" selection-start-line="547" selection-end-line="547" />
+            <state relative-caret-position="-578">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
-                <element signature="class#2573:4824" />
-                <element signature="method#searchWord#0;class#Controller#0" />
-                <element signature="method#showlistview#0;class#Controller#0" />
-                <element signature="class#6157:7012" />
-                <element signature="method#speak#0;class#Controller#0" />
-                <element signature="method#Submit#0;class#Controller#0" />
-                <element signature="method#addwordscene#0;class#Controller#0" />
-                <element signature="method#addword#0;class#Controller#0" />
-                <element signature="method#editwordscene#0;class#Controller#0" />
-                <element signature="method#editWord#0;class#Controller#0" />
-                <element signature="method#removeWord#0;class#Controller#0" />
-                <element signature="method#setWikiButton#0;class#Controller#0" />
-                <element signature="method#setLabanButton#0;class#Controller#0" />
-                <element signature="method#changeAv#0;class#Controller#0" />
-                <element signature="method#changeVa#0;class#Controller#0" />
-                <element signature="method#closeWindows#0;class#Controller#0" />
-                <element signature="method#alertNotEntered#0;class#Controller#0" />
-                <element signature="method#alertNotInternet#0;class#Controller#0" />
-                <element signature="method#alertNotSelected#0;class#Controller#0" />
-                <element signature="method#setCalendarDisplay#0;class#Controller#0" />
-                <element signature="method#setClockDisplay#0;class#Controller#0" />
+                <element signature="e#4838#5460#0" />
+                <element signature="e#5466#5983#0" />
+                <element signature="e#7026#8907#0" />
+                <element signature="e#8913#9676#0" />
+                <element signature="e#10156#10808#0" />
+                <element signature="e#10814#11389#0" />
+                <element signature="e#11395#13041#0" />
+                <element signature="e#13047#15428#0" />
+                <element signature="e#15434#16413#0" />
+                <element signature="e#16419#17360#0" />
+                <element signature="e#17367#18269#0" />
+                <element signature="e#19120#19391#0" />
+                <element signature="e#19397#19669#0" />
+                <element signature="e#19675#20087#0" />
+                <element signature="e#20093#20392#0" />
+                <element signature="e#20398#20718#0" />
+                <element signature="e#20724#21026#0" />
+                <element signature="e#21032#21485#0" />
+                <element signature="e#21491#22373#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/AddController.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/VerbsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="-374">
+              <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3134#3140#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/style/StyleBuilder.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/VerbsDatabaseConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fxml/verbsLoader.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -306,11 +318,15 @@
     <findStrings>
       <find>#0f8</find>
       <find>\\</find>
+      <find>infinitive</find>
+      <find>#00ffaa</find>
     </findStrings>
     <replaceStrings>
       <replace>#0f8</replace>
-      <replace>#0f9</replace>
       <replace>/</replace>
+      <replace>simple</replace>
+      <replace>participle</replace>
+      <replace>#0f9</replace>
     </replaceStrings>
   </component>
   <component name="FindManager">
@@ -347,15 +363,16 @@
         <option value="$PROJECT_DIR$/src/bin/Main/controller/GoogleController.java" />
         <option value="$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml" />
         <option value="$PROJECT_DIR$/src/bin/Main/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/data/Verb.java" />
-        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/fxml/verbs.html" />
         <option value="$PROJECT_DIR$/src/fxml/verns.fxml" />
-        <option value="$PROJECT_DIR$/src/controller/VerbsController.java" />
-        <option value="$PROJECT_DIR$/src/data/VerbsDatabaseConnection.java" />
         <option value="$PROJECT_DIR$/src/fxml/verbs.fxml" />
-        <option value="$PROJECT_DIR$/src/style/StyleBuilder.css" />
         <option value="$PROJECT_DIR$/src/data/DatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/fxml/verbsLoader.fxml" />
+        <option value="$PROJECT_DIR$/src/data/VerbsDatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/data/Verb.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/controller/VerbsController.java" />
+        <option value="$PROJECT_DIR$/src/style/StyleBuilder.css" />
       </list>
     </option>
   </component>
@@ -375,8 +392,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -389,8 +406,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -402,12 +417,6 @@
               <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="asg1-100-team-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asg1-100-team-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
@@ -425,12 +434,20 @@
               <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="asg1-100-team-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asg1-100-team-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asg1-100-team-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,30 +462,30 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540047807731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540098172028" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/jfoenix-9.0.6.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Github\asg1-100-team-1\src\style" />
-      <recent name="C:\Github\asg1-100-team-1\src\data" />
-      <recent name="C:\Github\asg1-100-team-1\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\Desktop\JavaDictionary\src\bin\Main\controller" />
       <recent name="C:\Users\Asus\Desktop\JavaDictionary\src\bin\Main\Style" />
       <recent name="C:\Users\Asus\Desktop\JavaDictionary\src\bin\Main\main\Style" />
       <recent name="C:\Users\Asus\Desktop\JavaDictionary\src\bin\Main\main" />
       <recent name="C:\Users\Asus\Desktop\JavaDictionary\src\sample\Main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\asg1-100-team-1\src\data" />
+      <recent name="C:\Github\asg1-100-team-1\src\style" />
+      <recent name="C:\Github\asg1-100-team-1\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -561,6 +578,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaDictionary.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JavaDictionary_jar/JavaDictionary.jar" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -585,10 +606,12 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JAR Application.JavaDictionary.jar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JAR Application.JavaDictionary.jar" />
         <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
@@ -635,7 +658,9 @@
       <workItem from="1540010272990" duration="1455000" />
       <workItem from="1540021077633" duration="1031000" />
       <workItem from="1540023264868" duration="1837000" />
-      <workItem from="1540032248442" duration="8508000" />
+      <workItem from="1540032248442" duration="9565000" />
+      <workItem from="1540049094914" duration="815000" />
+      <workItem from="1540090674720" duration="7450000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1540033033067</created>
@@ -707,16 +732,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540047329351</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1540047891894</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540047891894</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86938000" />
+    <option name="totallyTimeSpent" value="96260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2806354" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20953101" />
       <window_info id="Structure" order="1" weight="0.2785235" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -725,7 +758,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35973597" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35973597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,7 +768,7 @@
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32838285" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3299566" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
@@ -828,18 +861,8 @@
     <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/editword.fxml" />
     <entry file="file://$PROJECT_DIR$/src/bin/Main/Style/MainSceneBuilder.fxml" />
     <entry file="file://$PROJECT_DIR$/src/bin/Main/main/Main.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4355" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="605" column="74" selection-start-line="605" selection-start-column="32" selection-end-line="605" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaDictionary/bin/Main/controller/Controller.class" />
+    <entry file="file://$PROJECT_DIR$/src/bin/Main/controller/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/GoogleAPI/parsing/Parse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -861,38 +884,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/verbs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/VerbsDatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/verbs.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/VerbsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/verbs.html" />
+    <entry file="file://$PROJECT_DIR$/src/fxml/verbs.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/data/Verb.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -900,77 +894,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Verb.java">
+    <entry file="file://$PROJECT_DIR$/src/data/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AddController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/Verb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/verbsLoader.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="547" selection-start-line="547" selection-end-line="547" />
+        <state relative-caret-position="-578">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
-            <element signature="class#2573:4824" />
-            <element signature="method#searchWord#0;class#Controller#0" />
-            <element signature="method#showlistview#0;class#Controller#0" />
-            <element signature="class#6157:7012" />
-            <element signature="method#speak#0;class#Controller#0" />
-            <element signature="method#Submit#0;class#Controller#0" />
-            <element signature="method#addwordscene#0;class#Controller#0" />
-            <element signature="method#addword#0;class#Controller#0" />
-            <element signature="method#editwordscene#0;class#Controller#0" />
-            <element signature="method#editWord#0;class#Controller#0" />
-            <element signature="method#removeWord#0;class#Controller#0" />
-            <element signature="method#setWikiButton#0;class#Controller#0" />
-            <element signature="method#setLabanButton#0;class#Controller#0" />
-            <element signature="method#changeAv#0;class#Controller#0" />
-            <element signature="method#changeVa#0;class#Controller#0" />
-            <element signature="method#closeWindows#0;class#Controller#0" />
-            <element signature="method#alertNotEntered#0;class#Controller#0" />
-            <element signature="method#alertNotInternet#0;class#Controller#0" />
-            <element signature="method#alertNotSelected#0;class#Controller#0" />
-            <element signature="method#setCalendarDisplay#0;class#Controller#0" />
-            <element signature="method#setClockDisplay#0;class#Controller#0" />
+            <element signature="e#4838#5460#0" />
+            <element signature="e#5466#5983#0" />
+            <element signature="e#7026#8907#0" />
+            <element signature="e#8913#9676#0" />
+            <element signature="e#10156#10808#0" />
+            <element signature="e#10814#11389#0" />
+            <element signature="e#11395#13041#0" />
+            <element signature="e#13047#15428#0" />
+            <element signature="e#15434#16413#0" />
+            <element signature="e#16419#17360#0" />
+            <element signature="e#17367#18269#0" />
+            <element signature="e#19120#19391#0" />
+            <element signature="e#19397#19669#0" />
+            <element signature="e#19675#20087#0" />
+            <element signature="e#20093#20392#0" />
+            <element signature="e#20398#20718#0" />
+            <element signature="e#20724#21026#0" />
+            <element signature="e#21032#21485#0" />
+            <element signature="e#21491#22373#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/VerbsDatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/VerbsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3134#3140#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/StyleBuilder.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/DatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>

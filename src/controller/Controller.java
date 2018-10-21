@@ -544,8 +544,17 @@ public class Controller implements Initializable {
         }
     }
 
-    public void loadVerbs() {
-
+    public void loadVerbs() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/verbsLoader.fxml"));
+        Parent root1 = fxmlLoader.load();
+        Stage stage = new Stage();
+        Stage primary = (Stage) search.getScene().getWindow();
+        Scene scene = new Scene(root1);
+        stage.setScene(scene);
+        stage.initOwner(primary);
+        stage.initStyle(StageStyle.UNDECORATED);
+        Platform.setImplicitExit(false);
+        stage.show();
     }
 
     /**
