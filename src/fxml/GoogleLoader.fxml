@@ -11,13 +11,7 @@
             style="-fx-background-color: white; -fx-border-color: #00EEAA; -fx-border-width: 5;"
             xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="controller.GoogleController">
-    <children>
-        <JFXTextArea fx:id="GoogletextArea" focusColor="#00ffaa" layoutX="84.0" layoutY="84.0" prefHeight="287.0"
-                     prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
-        <JFXTextArea fx:id="GoogleTranslateTextArea" focusColor="#00ffaa" layoutX="346.0" layoutY="84.0"
-                     prefHeight="287.0" prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
-        <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true"
-                   preserveRatio="true">
+
             <image>
                 <Image url="@../icon/Google-Translate-apk-free-download-1.png"/>
             </image>
