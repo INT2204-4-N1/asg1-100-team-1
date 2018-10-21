@@ -40,7 +40,7 @@
                 </Button>
                 <AnchorPane prefHeight="557.0" prefWidth="210.0">
                     <children>
-                        <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="205.0" mnemonicParsing="false" onAction="#setWikiButton" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Wiktionary" textFill="WHITE" AnchorPane.leftAnchor="5.0">
+                        <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="220.0" mnemonicParsing="false" onAction="#setWikiButton" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Wiktionary" textFill="WHITE" AnchorPane.leftAnchor="5.0">
                             <graphic>
                                 <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -52,7 +52,7 @@
                                 <Font name="Segoe UI Bold" size="12.5" />
                             </font>
                         </Button>
-                        <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="150.0" mnemonicParsing="false" onAction="#loadGoogle" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Google Translate" textFill="WHITE" AnchorPane.leftAnchor="5.0">
+                        <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="165.0" mnemonicParsing="false" onAction="#loadGoogle" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Google Translate" textFill="WHITE" AnchorPane.leftAnchor="5.0">
                             <graphic>
                                 <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -64,7 +64,7 @@
                                 <Font name="Segoe UI Bold" size="12.5" />
                             </font>
                         </Button>
-                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#changeAv" prefHeight="50.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="English - Vietnamese" textFill="WHITE" AnchorPane.leftAnchor="5.0">
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#changeAv" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="English - Vietnamese" textFill="WHITE" AnchorPane.leftAnchor="5.0">
                             <graphic>
                                 <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -76,7 +76,7 @@
                                 <Font name="Segoe UI Bold" size="12.5" />
                             </font>
                         </Button>
-                        <Button alignment="BASELINE_LEFT" layoutY="50.0" mnemonicParsing="false" onAction="#changeVa" prefHeight="50.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Vietnamese - English" textFill="WHITE" AnchorPane.leftAnchor="5.0">
+                        <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="55.0" mnemonicParsing="false" onAction="#changeVa" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Vietnamese - English" textFill="WHITE" AnchorPane.leftAnchor="5.0">
                             <graphic>
                                 <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -88,7 +88,7 @@
                                 <Font name="Segoe UI Bold" size="12.5" />
                             </font>
                         </Button>
-                        <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="260.0" mnemonicParsing="false" onAction="#setLabanButton" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Laban Dictionary" textFill="WHITE" AnchorPane.leftAnchor="5.0">
+                        <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="279.0" mnemonicParsing="false" onAction="#setLabanButton" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Laban Dictionary" textFill="WHITE" AnchorPane.leftAnchor="5.0">
                             <graphic>
                                 <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -100,11 +100,11 @@
                                 <Font name="Segoe UI Bold" size="12.5" />
                             </font>
                         </Button>
-                  <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="100.0" mnemonicParsing="false" onAction="#loadVerbs" prefHeight="50.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Động từ bất quy tắc" textFill="WHITE" AnchorPane.leftAnchor="5.0">
+                  <Button alignment="BASELINE_LEFT" layoutX="5.0" layoutY="110.0" mnemonicParsing="false" onAction="#loadVerbs" prefHeight="55.0" prefWidth="200.0" styleClass="buttonTab" stylesheets="@../style/StyleBuilder.css" text="Động từ bất quy tắc" textFill="WHITE" AnchorPane.leftAnchor="5.0">
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../icon/icons8-book-52.png" />
+                              <Image url="@../icon/icons8-v-symbol-filled-50.png" />
                            </image>
                         </ImageView>
                      </graphic>

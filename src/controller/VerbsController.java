@@ -72,6 +72,8 @@ public class VerbsController implements Initializable {
             }
         });
 
+
+
         ObservableList<Verb> verbs = FXCollections.observableArrayList();
         String query ="SELECT infinitive, simple, participle FROM verbs";
 
@@ -84,11 +86,6 @@ public class VerbsController implements Initializable {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
-
 
 
 

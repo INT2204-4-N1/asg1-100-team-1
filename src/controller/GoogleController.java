@@ -55,11 +55,7 @@ public class GoogleController implements Initializable {
                 if (event.getCode() == KeyCode.ENTER) {
                     String text = GoogletextArea.getText();
                     if ("".equals(text)) {
-                        Alert alert = new Alert(Alert.AlertType.WARNING);
-                        alert.setTitle("THÔNG BÁO");
-                        alert.setHeaderText("                       VĂN BẢN CHƯA ĐƯỢC NHẬP!");
-                        alert.setContentText("*WARNING: FBI");
-                        alert.show();
+                        alertNotEntered();
                     } else {
                         try {
                             String rescb1 = map.get(Box1.getValue());
@@ -79,11 +75,7 @@ public class GoogleController implements Initializable {
         if (event.getSource() == GooglesearchButton) {
             String text = GoogletextArea.getText();
             if ("".equals(text)) {
-                Alert alert = new Alert(Alert.AlertType.WARNING);
-                alert.setTitle("THÔNG BÁO");
-                alert.setHeaderText("                       VĂN BẢN CHƯA ĐƯỢC NHẬP!");
-                alert.setContentText("*WARNING: FBI");
-                alert.show();
+                alertNotEntered();
             } else {
                 String rescb1 = map.get(Box1.getValue());
                 String rescb2 = map.get(Box2.getValue());
@@ -98,10 +90,7 @@ public class GoogleController implements Initializable {
             String rescb1 = map.get(Box1.getValue());
             String text = GoogletextArea.getText();
             if ("".equals(text)) {
-                Alert alert = new Alert(Alert.AlertType.WARNING);
-                alert.setHeaderText("KHÔNG PHÁT HIỆN VĂN BẢN");
-                alert.setContentText("*ERROR: 404");
-                alert.showAndWait();
+                alertNotEntered();
             } else {
                 Audio audio = Audio.getInstance();
                 InputStream sound = audio.getAudio(text.trim(), rescb1);
@@ -113,10 +102,7 @@ public class GoogleController implements Initializable {
             String text1 = GoogleTranslateTextArea.getText();
 
             if ("".equals(text1)) {
-                Alert alert = new Alert(Alert.AlertType.WARNING);
-                alert.setHeaderText("KHÔNG PHÁT HIỆN VĂN BẢN");
-                alert.setContentText("*ERROR: 404");
-                alert.showAndWait();
+                alertNotEntered();
             } else {
                 Audio audio1 = Audio.getInstance();
                 InputStream sound1 = audio1.getAudio(text1, rescb2);
@@ -143,5 +129,16 @@ public class GoogleController implements Initializable {
         Box2.setItems(languages);
         Box2.setValue("Vietnamese");
         Box1.setValue("English");
+    }
+
+    /**
+     * thông báo văn bản chưa nhập
+     */
+    public void alertNotEntered() {
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("THÔNG BÁO:");
+        alert.setHeaderText("VĂN BẢN CHƯA ĐƯỢC NHẬP!");
+        alert.setContentText("*WARNING: FBI");
+        alert.show();
     }
 }
