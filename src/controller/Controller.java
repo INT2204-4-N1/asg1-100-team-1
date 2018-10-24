@@ -564,6 +564,7 @@ public class Controller implements Initializable {
         setTypeOfDictionary("av");
         listWord.clear();
         showlistview();
+        listView.scrollTo(0);
         webView.getEngine().loadContent("");
         search.setText("");
         checkTypeDictionary = true;
@@ -576,6 +577,7 @@ public class Controller implements Initializable {
         setTypeOfDictionary("va");
         listWord.clear();
         showlistview();
+        listView.scrollTo(0);
         webView.getEngine().loadContent("");
         search.setText("");
         checkTypeDictionary = false;
