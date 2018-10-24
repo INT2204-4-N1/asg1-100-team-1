@@ -37,11 +37,12 @@ public class EditController implements Initializable {
             c.alertNotEntered();
         } else {
 
-            c.editWord(wordd, deff, editWordd);
+            c.editWord(wordd, editWordd ,deff);
         }
 
         word.setText("");
         def.setHtmlText("");
+        editWord.setText("");
     }
 
     public void home(ActionEvent event) {
