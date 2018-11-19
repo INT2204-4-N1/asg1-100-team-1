@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaDictionary.iml" filepath="$PROJECT_DIR$/JavaDictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BT_OOP.iml" filepath="$PROJECT_DIR$/BT_OOP.iml" />
     </modules>
   </component>
 </project>

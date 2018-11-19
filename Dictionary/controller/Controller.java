@@ -3,7 +3,7 @@ package controller;
 import Internet.InternetConnected;
 import GoogleAPI.Audio;
 import com.jfoenix.controls.JFXListView;
-import data.DatabaseConnection;
+import Data.DatabaseConnection;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

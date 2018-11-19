@@ -1,4 +1,4 @@
-package data;
+package Data;
 
 import java.io.File;
 import java.sql.Connection;
@@ -8,7 +8,7 @@ public class VerbsDatabaseConnection {
     public static Connection getConnection() {
         try {
             String path = new File("").getAbsolutePath();
-            path = path.concat("/src/data/verbs.db");
+            path = path.concat("/Dictionary/Data/verbs.db");
 
             Class.forName("org.sqlite.JDBC");
             return DriverManager.getConnection("jdbc:sqlite:" + path);
