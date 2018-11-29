@@ -60,8 +60,7 @@ public class Game extends Canvas {
 		_board = new Board(this, _input, screen);
 		addKeyListener(_input);
 	}
-	
-	
+
 	private void renderGame() {
 		BufferStrategy bs = getBufferStrategy();
 		if(bs == null) {

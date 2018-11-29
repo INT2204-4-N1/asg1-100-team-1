@@ -14,6 +14,7 @@ import uet.oop.bomberman.level.FileLevelLoader;
 import uet.oop.bomberman.level.LevelLoader;
 
 import java.awt.*;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -102,6 +103,8 @@ public class Board implements IRender {
 			_levelLoader.createEntities();
 		} catch (LoadLevelException e) {
 			endGame();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 	}
 	
@@ -150,7 +153,7 @@ public class Board implements IRender {
 		res = getBombAt(x, y);
 		if( res != null) return res;
 		
-		res = getCharacterAtExcluding((int)x, (int)y, m);
+		res = getCharacterAtExcluding(x, y);
 		if( res != null) return res;
 		
 		res = getEntityAt((int)x, (int)y);
@@ -188,16 +191,15 @@ public class Board implements IRender {
 		return null;
 	}
 	
-	public Character getCharacterAtExcluding(int x, int y, Character a) {
+	public Character getCharacterAtExcluding(double x, double y/*, Character a*/) {
 		Iterator<Character> itr = _characters.iterator();
 		
 		Character cur;
 		while(itr.hasNext()) {
 			cur = itr.next();
-			if(cur == a) {
+			/*if(cur == a) {
 				continue;
-			}
-			
+			}*/
 			if(cur.getXTile() == x && cur.getYTile() == y) {
 				return cur;
 			}
