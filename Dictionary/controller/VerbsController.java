@@ -38,7 +38,6 @@ public class VerbsController implements Initializable {
     private ResultSet rs = null;
 
 
-
     public void home(ActionEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
@@ -46,7 +45,7 @@ public class VerbsController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        JFXTreeTableColumn<Verb,String>  infinitive = new JFXTreeTableColumn<>("Nguyên Mẫu");
+        JFXTreeTableColumn<Verb, String> infinitive = new JFXTreeTableColumn<>("Nguyên Mẫu");
         infinitive.setPrefWidth(188);
         infinitive.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<Verb, String>, ObservableValue<String>>() {
             @Override
@@ -54,7 +53,7 @@ public class VerbsController implements Initializable {
                 return param.getValue().getValue().infinitive;
             }
         });
-        JFXTreeTableColumn<Verb,String>  simple = new JFXTreeTableColumn<>("QK Đơn");
+        JFXTreeTableColumn<Verb, String> simple = new JFXTreeTableColumn<>("QK Đơn");
         simple.setPrefWidth(188);
         simple.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<Verb, String>, ObservableValue<String>>() {
             @Override
@@ -62,7 +61,7 @@ public class VerbsController implements Initializable {
                 return param.getValue().getValue().simple;
             }
         });
-        JFXTreeTableColumn<Verb,String>  participle = new JFXTreeTableColumn<>("QK Phân Từ");
+        JFXTreeTableColumn<Verb, String> participle = new JFXTreeTableColumn<>("QK Phân Từ");
         participle.setPrefWidth(188);
         participle.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<Verb, String>, ObservableValue<String>>() {
             @Override
@@ -72,25 +71,23 @@ public class VerbsController implements Initializable {
         });
 
 
-
         ObservableList<Verb> verbs = FXCollections.observableArrayList();
-        String query ="SELECT infinitive, simple, participle FROM verbs";
+        String query = "SELECT infinitive, simple, participle FROM verbs";
 
-        try{
-            statement=connection.createStatement();
+        try {
+            statement = connection.createStatement();
             rs = statement.executeQuery(query);
-            while (rs.next()){
-                verbs.add( new Verb(rs.getString("infinitive"), rs.getString("simple"), rs.getString("participle")));
+            while (rs.next()) {
+                verbs.add(new Verb(rs.getString("infinitive"), rs.getString("simple"), rs.getString("participle")));
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
 
-
         final TreeItem<Verb> root = new RecursiveTreeItem<Verb>(verbs, RecursiveTreeObject::getChildren);
 
-        treeTableView.getColumns().setAll(infinitive,simple,participle);
+        treeTableView.getColumns().setAll(infinitive, simple, participle);
         treeTableView.setRoot(root);
         treeTableView.setShowRoot(false);
     }

@@ -37,7 +37,7 @@ public class EditController implements Initializable {
             c.alertNotEntered();
         } else {
 
-            c.editWord(wordd, editWordd ,deff);
+            c.editWord(wordd, editWordd, deff);
         }
 
         word.setText("");

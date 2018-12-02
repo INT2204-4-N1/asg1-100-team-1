@@ -82,10 +82,7 @@
     -fx-background-radius: 100;
 }
 
-
-
-
-.tree-table-view{
+.tree-table-view {
     -fx-tree-table-color: #0f9
 }
 
@@ -93,19 +90,18 @@
     -fx-background-color: #0f9;
 }
 
-.tree-table-view:focused .tree-table-row-cell:selected .tree-table-cell{
+.tree-table-view:focused .tree-table-row-cell:selected .tree-table-cell {
     -fx-text-fill: white;
 }
-
 
 .tree-table-view:focused .tree-table-row-cell:hover {
     -fx-background-color: #0ea
 }
-.tree-table-view:focused .tree-table-row-cell:hover .tree-table-cell{
+
+.tree-table-view:focused .tree-table-row-cell:hover .tree-table-cell {
     -fx-text-fill: white;
 }
 
-
-.tree-table-view .tree-table-cell{
+.tree-table-view .tree-table-cell {
     -fx-alignment: center;
 }
