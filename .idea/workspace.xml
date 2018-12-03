@@ -8,13 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BT_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BT_OOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/BombermanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/BombermanGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/bomb/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/bomb/Bomb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/character/Bomber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/character/Bomber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/tile/Portal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/tile/Portal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/level/FileLevelLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/uet/oop/bomberman/level/FileLevelLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/levels/Level2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/levels/Level2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sound/backgr.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/sound/backgr.wav" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -292,7 +286,7 @@
         <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/BombermanGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -313,7 +307,7 @@
         <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/character/Bomber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="125" column="41" lean-forward="true" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+              <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -325,7 +319,7 @@
         <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/tile/Portal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="30" selection-end-column="34" />
+              <caret line="30" column="34" selection-start-line="28" selection-start-column="16" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -333,8 +327,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/tile/item/FlameItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="244">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -584,7 +578,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543855308213" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543855975936" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Java/jre1.8.0_191/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -802,7 +796,7 @@
       <workItem from="1543741511860" duration="1196000" />
       <workItem from="1543765957171" duration="1656000" />
       <workItem from="1543831500668" duration="6158000" />
-      <workItem from="1543838949477" duration="8257000" />
+      <workItem from="1543838949477" duration="8909000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1540033033067</created>
@@ -937,11 +931,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543741634443</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update">
+      <created>1543855366554</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1543855366555</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194411000" />
+    <option name="totallyTimeSpent" value="195063000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -954,7 +955,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20499243" />
       <window_info id="Structure" order="1" weight="0.27836612" />
@@ -1306,6 +1306,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1375,7 +1378,7 @@
     <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/BombermanGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1402,7 +1405,7 @@
     <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/character/Bomber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="125" column="41" lean-forward="true" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+          <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1412,14 +1415,14 @@
     <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/tile/Portal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="30" selection-end-column="34" />
+          <caret line="30" column="34" selection-start-line="28" selection-start-column="16" selection-end-line="30" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bomberman/uet/oop/bomberman/entities/tile/item/FlameItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="244">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
