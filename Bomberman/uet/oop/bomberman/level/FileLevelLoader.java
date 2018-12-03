@@ -6,6 +6,7 @@ import uet.oop.bomberman.entities.LayeredEntity;
 import uet.oop.bomberman.entities.character.Bomber;
 import uet.oop.bomberman.entities.character.enemy.Balloon;
 import uet.oop.bomberman.entities.character.enemy.Dall;
+import uet.oop.bomberman.entities.character.enemy.Minvo;
 import uet.oop.bomberman.entities.character.enemy.Oneal;
 import uet.oop.bomberman.entities.tile.Grass;
 import uet.oop.bomberman.entities.tile.Portal;
@@ -18,9 +19,7 @@ import uet.oop.bomberman.exceptions.LoadLevelException;
 import uet.oop.bomberman.graphics.Screen;
 import uet.oop.bomberman.graphics.Sprite;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.URL;
 import java.util.StringTokenizer;
 
@@ -40,10 +39,8 @@ public class FileLevelLoader extends LevelLoader {
     public void loadLevel(int level) throws IOException {
         // TODO: đọc dữ liệu từ tệp cấu hình /levels/Level{level}.txt
         // TODO: cập nhật các giá trị đọc được vào _width, _height, _level, _map
-        String path = "levels/Level" + level + ".txt";
-        URL absPath = FileLevelLoader.class.getResource("/" + path);
-
-        BufferedReader in = new BufferedReader(new InputStreamReader(absPath.openStream()));
+        String path = new File("").getAbsolutePath() + "\\res\\levels\\Level"+level+".txt";
+        BufferedReader in = new BufferedReader(new FileReader(path));
 
         String data = in.readLine();
         StringTokenizer tokens = new StringTokenizer(data);
@@ -106,6 +103,10 @@ public class FileLevelLoader extends LevelLoader {
                         break;
                     case '3':
                         _board.addCharacter(new Dall(Coordinates.tileToPixel(x), Coordinates.tileToPixel(y) + Game.TILES_SIZE, _board));
+                        _board.addEntity(x + y * _width, new Grass(x, y, Sprite.grass));
+                        break;
+                    case '4':
+                        _board.addCharacter(new Minvo(Coordinates.tileToPixel(x), Coordinates.tileToPixel(y) + Game.TILES_SIZE, _board));
                         _board.addEntity(x + y * _width, new Grass(x, y, Sprite.grass));
                         break;
                     case 'b':

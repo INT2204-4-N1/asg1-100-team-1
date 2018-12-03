@@ -1,9 +1,12 @@
 package uet.oop.bomberman.entities.tile;
 
 import uet.oop.bomberman.Board;
+import uet.oop.bomberman.PlayMusic;
 import uet.oop.bomberman.entities.Entity;
 import uet.oop.bomberman.entities.character.Bomber;
 import uet.oop.bomberman.graphics.Sprite;
+
+import java.io.File;
 
 public class Portal extends Tile {
 
@@ -23,6 +26,9 @@ public class Portal extends Tile {
             if (e.getXTile() == getX() && e.getYTile() == getY()) {
                 if (_board.detectNoEnemies())
                     _board.nextLevel();
+                String path = new File("").getAbsolutePath() + "\\res\\sound\\portal.wav";
+                PlayMusic soundBase = new PlayMusic(path);
+                soundBase.play(0);
             }
             return true;
         }

@@ -2,6 +2,7 @@ package uet.oop.bomberman.entities.character;
 
 import uet.oop.bomberman.Board;
 import uet.oop.bomberman.Game;
+import uet.oop.bomberman.PlayMusic;
 import uet.oop.bomberman.entities.Entity;
 import uet.oop.bomberman.entities.bomb.Bomb;
 import uet.oop.bomberman.entities.bomb.Flame;
@@ -12,6 +13,7 @@ import uet.oop.bomberman.graphics.Sprite;
 import uet.oop.bomberman.input.Keyboard;
 import uet.oop.bomberman.level.Coordinates;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -114,6 +116,9 @@ public class Bomber extends Character {
     public void kill() {
         if (!_alive) return;
         _alive = false;
+        String path = new File("").getAbsolutePath() + "\\res\\sound\\die.wav";
+        PlayMusic soundBase = new PlayMusic(path);
+        soundBase.play(0);
     }
 
     @Override
@@ -192,10 +197,11 @@ public class Bomber extends Character {
 
     public void addPowerup(Item p) {
         if (p.isRemoved()) return;
-
         _items.add(p);
-
         p.setValues();
+        String path = new File("").getAbsolutePath() + "\\res\\sound\\itemget.wav";
+        PlayMusic soundBase = new PlayMusic(path);
+        soundBase.play(0);
     }
 
     private void chooseSprite() {

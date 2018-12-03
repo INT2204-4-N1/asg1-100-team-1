@@ -2,6 +2,7 @@ package uet.oop.bomberman.entities.bomb;
 
 import uet.oop.bomberman.Board;
 import uet.oop.bomberman.Game;
+import uet.oop.bomberman.PlayMusic;
 import uet.oop.bomberman.entities.AnimatedEntitiy;
 import uet.oop.bomberman.entities.Entity;
 import uet.oop.bomberman.entities.character.Bomber;
@@ -9,6 +10,8 @@ import uet.oop.bomberman.entities.character.Character;
 import uet.oop.bomberman.graphics.Screen;
 import uet.oop.bomberman.graphics.Sprite;
 import uet.oop.bomberman.level.Coordinates;
+
+import java.io.File;
 
 public class Bomb extends AnimatedEntitiy {
 
@@ -91,6 +94,9 @@ public class Bomb extends AnimatedEntitiy {
         for (int i = 0; i < _flames.length; i++) {
             _flames[i] = new Flame((int) _x, (int) _y, i, Game.getBombRadius(), _board);
         }
+        String path = new File("").getAbsolutePath() + "\\res\\sound\\explode.wav";
+        PlayMusic soundBase = new PlayMusic(path);
+        soundBase.play(0);
     }
 
     public FlameSegment flameAt(int x, int y) {
