@@ -110,10 +110,8 @@ public abstract class Enemy extends Character {
     @Override
     public boolean canMove(double x, double y) {
         // TODO: kiểm tra có đối tượng tại vị trí chuẩn bị di chuyển đến và có thể di chuyển tới đó hay không
-        double xr = _x, yr = _y - 16; //subtract y to get more accurate results
+        double xr = _x, yr = _y - 16;
 
-        //the thing is, subract 15 to 16 (sprite size), so if we add 1 tile we get the next pixel tile with this
-        //we avoid the shaking inside tiles with the help of steps
         if (_direction == 0) {
             yr += _sprite.getSize() - 1;
             xr += _sprite.getSize() / 2;
@@ -134,7 +132,7 @@ public abstract class Enemy extends Character {
         int xx = Coordinates.pixelToTile(xr) + (int) x;
         int yy = Coordinates.pixelToTile(yr) + (int) y;
 
-        Entity a = _board.getEntity(xx, yy, this); //entity of the position we want to go
+        Entity a = _board.getEntity(xx, yy, this);
 
         return a.collide(this);
     }

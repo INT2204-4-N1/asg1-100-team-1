@@ -39,7 +39,7 @@ public class FileLevelLoader extends LevelLoader {
     public void loadLevel(int level) throws IOException {
         // TODO: đọc dữ liệu từ tệp cấu hình /levels/Level{level}.txt
         // TODO: cập nhật các giá trị đọc được vào _width, _height, _level, _map
-        String path = new File("").getAbsolutePath() + "\\res\\levels\\Level"+level+".txt";
+        String path = new File("").getAbsolutePath() + "\\res\\levels\\Level"+2+".txt";
         BufferedReader in = new BufferedReader(new FileReader(path));
 
         String data = in.readLine();
